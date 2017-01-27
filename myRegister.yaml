@@ -1,0 +1,18 @@
+
+emissions :
+    repr : CO2 [mg/s]
+    unit : milligram per second
+    type : number
+    upper_limit : 400
+    lower_limit : 0    
+    description : CO2 emission breathing while riding the bike.
+    info : Measured using XXX sensor, etc.
+        
+gpsv :
+    repr : V [km/h]
+    unit : kilometer per hour
+    type : number
+    upper_limit : 30
+    lower_limit : 0
+    description : GPS Velocity
+    docstring : Measured using YYY sensor etc.
